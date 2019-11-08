@@ -1,4 +1,6 @@
 ﻿CREATE TABLE [dbo].[Country]
 (
-	[Id] INT NOT NULL PRIMARY KEY
+	[CountryCode] NVARCHAR(4) NOT NULL PRIMARY KEY, 
+    [Name] NVARCHAR(100) NULL, 
+    [GeoRegion] NVARCHAR(100) NULL
 )

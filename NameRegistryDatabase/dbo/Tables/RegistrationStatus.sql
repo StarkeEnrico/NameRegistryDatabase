@@ -1,4 +1,5 @@
 ﻿CREATE TABLE [dbo].[RegistrationStatus]
 (
-	[Id] INT NOT NULL PRIMARY KEY
+	[ID] INT NOT NULL PRIMARY KEY, 
+    [Name] NVARCHAR(100) NULL 
 )

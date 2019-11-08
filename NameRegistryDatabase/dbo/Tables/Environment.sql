@@ -1,6 +1,6 @@
 ﻿CREATE TABLE [dbo].[Environment] (
-    [id]          INT            IDENTITY (1, 1) NOT NULL,
-    [environment] NVARCHAR (100) NOT NULL,
-    CONSTRAINT [environment_pk] PRIMARY KEY CLUSTERED ([id] ASC)
+    [ID]          INT            IDENTITY (1, 1) NOT NULL,
+    [Name] NVARCHAR (100) NOT NULL,
+    CONSTRAINT [environment_pk] PRIMARY KEY CLUSTERED ([ID] ASC)
 );
 
