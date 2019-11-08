@@ -1,0 +1,4 @@
+﻿CREATE TABLE [dbo].[Service]
+(
+	[Id] INT NOT NULL PRIMARY KEY
+)
