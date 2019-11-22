@@ -91,4 +91,11 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="ID" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="4392338a-2c84-46f5-af90-1a0b37b2386f" ChangeDateTime="11/22/2019 12:15:23">
+    <Property Name="ElementName" Value="[dbo].[Service].[shortname]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Service]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Shortname" />
+  </Operation>
 </Operations>
